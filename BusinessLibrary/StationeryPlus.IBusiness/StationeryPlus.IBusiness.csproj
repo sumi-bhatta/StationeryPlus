@@ -6,4 +6,7 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\CommonLibrary\StationeryPlus.CommonLibrary\StationeryPlus.CommonLibrary.csproj" />
+  </ItemGroup>
 </Project>

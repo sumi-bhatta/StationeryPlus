@@ -11,24 +11,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccessLibrary", "DataAc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StationeryPlus.DataAccess", "DataAccessLibrary\StationeryPlus.DataAccess\StationeryPlus.DataAccess.csproj", "{0090E905-0788-487E-9A7A-098C077AEC9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StationeryPlus.Business", "BusinessLibrary\StationeryPlus.Business\StationeryPlus.Business.csproj", "{09FC10D2-740E-4B5A-B37D-D555C1DCA2D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StationeryPlus.Business", "BusinessLibrary\StationeryPlus.Business\StationeryPlus.Business.csproj", "{09FC10D2-740E-4B5A-B37D-D555C1DCA2D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StationeryPlus.IBusiness", "BusinessLibrary\StationeryPlus.IBusiness\StationeryPlus.IBusiness.csproj", "{2D7EB17E-EA02-4D8E-9A7A-40CC44DEB5F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StationeryPlus.IBusiness", "BusinessLibrary\StationeryPlus.IBusiness\StationeryPlus.IBusiness.csproj", "{2D7EB17E-EA02-4D8E-9A7A-40CC44DEB5F8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommonLibrary", "CommonLibrary", "{FDFCFCEB-CB42-4C42-A275-5D8A1FF21775}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StationeryPlus.CommonLibrary", "CommonLibrary\StationeryPlus.CommonLibrary\StationeryPlus.CommonLibrary.csproj", "{62BBDA82-5D82-40C2-8A94-F829DF429AE5}"
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StationeryPlus.Business", "BusinessLibrary\StationeryPlus.Business\StationeryPlus.Business.csproj", "{51625BC8-ECF9-40AC-A9FD-3E5F39ADCA73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StationeryPlus.CommonLibrary", "CommonLibrary\StationeryPlus.CommonLibrary\StationeryPlus.CommonLibrary.csproj", "{62BBDA82-5D82-40C2-8A94-F829DF429AE5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StationeryPlus.IBusiness", "BusinessLibrary\StationeryPlus.IBusiness\StationeryPlus.IBusiness.csproj", "{A232DC4F-DF3D-4F86-A3B8-C0C79F2322F3}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommonLibrary", "CommonLibrary", "{6DF93308-6E73-4C37-BFBB-885F6F42DCAB}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StationeryPlus.CommonLibrary", "CommonLibrary\StationeryPlus.CommonLibrary\StationeryPlus.CommonLibrary.csproj", "{E28688A6-E2F3-449A-B668-CF53D594460C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommonLibrary (2)", "CommonLibrary (2)", "{6DF93308-6E73-4C37-BFBB-885F6F42DCAB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer4", "IdentityServer4", "{AE04C3BB-CBF8-4D7F-8AF5-AA8388A9CAFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "IdentityServer4\Server\Server.csproj", "{C28D6CAF-26FB-4197-8B12-421500E5F4F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server", "IdentityServer4\Server\Server.csproj", "{C28D6CAF-26FB-4197-8B12-421500E5F4F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -56,18 +51,6 @@ Global
 		{62BBDA82-5D82-40C2-8A94-F829DF429AE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62BBDA82-5D82-40C2-8A94-F829DF429AE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62BBDA82-5D82-40C2-8A94-F829DF429AE5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{51625BC8-ECF9-40AC-A9FD-3E5F39ADCA73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{51625BC8-ECF9-40AC-A9FD-3E5F39ADCA73}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{51625BC8-ECF9-40AC-A9FD-3E5F39ADCA73}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{51625BC8-ECF9-40AC-A9FD-3E5F39ADCA73}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A232DC4F-DF3D-4F86-A3B8-C0C79F2322F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A232DC4F-DF3D-4F86-A3B8-C0C79F2322F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A232DC4F-DF3D-4F86-A3B8-C0C79F2322F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A232DC4F-DF3D-4F86-A3B8-C0C79F2322F3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E28688A6-E2F3-449A-B668-CF53D594460C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E28688A6-E2F3-449A-B668-CF53D594460C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E28688A6-E2F3-449A-B668-CF53D594460C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E28688A6-E2F3-449A-B668-CF53D594460C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C28D6CAF-26FB-4197-8B12-421500E5F4F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C28D6CAF-26FB-4197-8B12-421500E5F4F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C28D6CAF-26FB-4197-8B12-421500E5F4F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -81,9 +64,6 @@ Global
 		{09FC10D2-740E-4B5A-B37D-D555C1DCA2D6} = {6E584848-19EC-49DE-A5DC-49F85754E8FD}
 		{2D7EB17E-EA02-4D8E-9A7A-40CC44DEB5F8} = {6E584848-19EC-49DE-A5DC-49F85754E8FD}
 		{62BBDA82-5D82-40C2-8A94-F829DF429AE5} = {FDFCFCEB-CB42-4C42-A275-5D8A1FF21775}
-		{51625BC8-ECF9-40AC-A9FD-3E5F39ADCA73} = {6E584848-19EC-49DE-A5DC-49F85754E8FD}
-		{A232DC4F-DF3D-4F86-A3B8-C0C79F2322F3} = {6E584848-19EC-49DE-A5DC-49F85754E8FD}
-		{E28688A6-E2F3-449A-B668-CF53D594460C} = {6DF93308-6E73-4C37-BFBB-885F6F42DCAB}
 		{C28D6CAF-26FB-4197-8B12-421500E5F4F6} = {AE04C3BB-CBF8-4D7F-8AF5-AA8388A9CAFB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
